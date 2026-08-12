@@ -1,0 +1,20 @@
+{
+  "model": "logistic_regression",
+  "split": "client_grouped_holdout_20pct",
+  "precision_at_50": 0.74,
+  "precision_at_50_leaky_random_split_for_comparison": 0.88,
+  "baseline_week4_ctr_gap_rule_precision_at_50": 0.56,
+  "base_rate_always_positive_precision_at_50": 0.511,
+  "top50_false_positive_count_week5": 13,
+  "test_set_clients": 7,
+  "test_set_content_types": [
+    "keyword article"
+  ],
+  "leakage_audit_injected_feature_score": 1.0,
+  "leakage_audit_honest_score": 0.74,
+  "queue_rows_exported": 22006,
+  "queue_reason_code_counts": {
+    "HIGH_RISK_LOW_ENGAGEMENT": 18848,
+    "POSSIBLE_SNIPPET_FALSE_POSITIVE": 3158
+  }
+}
